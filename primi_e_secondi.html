@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primi e Secondi | Su Forru Buddiu</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <header>
+        <h1>Su Forru Buddiu</h1>
+        <div style="text-align:right; margin:6px 0 10px 0;">
+          <div style="display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border-radius:999px; background:#fff8e6; border:1px solid #efd8c3; box-shadow:0 1px 6px #d1b7a130;">
+            <span style="font-weight:700; color:#5a4123;">🌐</span>
+            <label for="lang-select" style="margin-right:2px; font-weight:600; color:#5a4123;" data-i18n-label="lang.label">Lingua</label>
+            <select id="lang-select" style="padding:7px 12px; border-radius:10px; border:1px solid #e1c8b3; color:#5a4123; background:#ffffff; box-shadow: inset 0 1px 2px #00000010; cursor:pointer;">
+              <option value="it">🇮🇹 Italiano</option>
+              <option value="en">🇬🇧 English</option>
+              <option value="es">🇪🇸 Español</option>
+            </select>
+          </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="menu.html" data-i18n="nav.menu">Menu</a></li>
+                <li><a href="pizze.html" data-i18n="nav.pizze">Pizze</a></li>
+                <li><a href="primi_e_secondi.html" data-i18n="nav.primi">Primi e Secondi</a></li>
+                <li><a href="dolci.html" data-i18n="nav.dolci">Dolci</a></li>
+                <li><a href="bevande.html" data-i18n="nav.bevande">Bevande</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="primisecondi">
+            <h2 data-i18n="sections.primi">Primi e Secondi</h2>
+            <ul class="menu-list">
+                <li>
+                    <img src="img/lasagna.png" alt="Lasagna" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.lasagna.title">Lasagna</strong> - €9,00</div>
+                        <ul>
+                            <li data-i18n="item.lasagna.desc">Pasta all'uovo, ragù, besciamella, parmigiano</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/risotto_funghi.png" alt="Risotto ai funghi" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.risotto_funghi.title">Risotto ai funghi</strong> - €8,00</div>
+                        <ul>
+                            <li data-i18n="item.risotto_funghi.desc">Riso, funghi porcini, brodo vegetale, prezzemolo</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/carbonara.png" alt="Spaghetti alla Carbonara" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.carbonara.title">Spaghetti alla Carbonara</strong> - €8,50</div>
+                        <ul>
+                            <li data-i18n="item.carbonara.desc">Spaghetti, uova, guanciale, pecorino, pepe nero</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/cotoletta_milanese.png" alt="Cotoletta alla Milanese" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.cotoletta_milanese.title">Cotoletta alla Milanese</strong> - €10,00</div>
+                        <ul>
+                            <li data-i18n="item.cotoletta_milanese.desc">Vitello, uova, pangrattato, olio di arachide</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/scaloppine_limone.png" alt="Scaloppine al limone" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.scaloppine_limone.title">Scaloppine al limone</strong> - €9,00</div>
+                        <ul>
+                            <li data-i18n="item.scaloppine_limone.desc">Fettine di vitello, limone, farina, vino bianco</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/bistecca_ferri.png" alt="Bistecca ai ferri" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.bistecca_ferri.title">Bistecca ai ferri</strong> - €13,00</div>
+                        <ul>
+                            <li data-i18n="item.bistecca_ferri.desc">Manzo, rosmarino, olio extravergine, sale</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/orechiette_cime_rapa.png" alt="Orecchiette alle Cime di Rapa" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.orecchiette_cime_rapa.title">Orecchiette alle Cime di Rapa</strong> - €8,50</div>
+                        <ul>
+                            <li data-i18n="item.orecchiette_cime_rapa.desc">Orecchiette, cime di rapa, acciughe, olio extravergine, aglio, peperoncino</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/gnocchi_pesto.png" alt="Gnocchi al Pesto" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.gnocchi_pesto.title">Gnocchi al Pesto</strong> - €8,00</div>
+                        <ul>
+                            <li data-i18n="item.gnocchi_pesto.desc">Gnocchi di patate, pesto di basilico, grana, pinoli</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/polpette_sugo.png" alt="Polpette al Sugo" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.polpette_sugo.title">Polpette al Sugo</strong> - €9,50</div>
+                        <ul>
+                            <li data-i18n="item.polpette_sugo.desc">Carne macinata, pane, uova, parmigiano, salsa di pomodoro</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/branzino_forno.png" alt="Branzino al Forno" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item">
+                        <div class="title"><strong data-i18n="item.branzino_forno.title">Branzino al Forno</strong> - €12,00</div>
+                        <ul>
+                            <li data-i18n="item.branzino_forno.desc">Filetto di branzino, erbe aromatiche, vino bianco, olio extravergine, patate</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <section id="contatti" style="margin-top:2.6em; margin-bottom:1.3em; text-align:center;">
+      <h2 style="font-size:1.25em; color:#b71c1c; letter-spacing:1px;" data-i18n="contacts.title">Contatti</h2>
+      <p style="font-size:1.07em; margin:0.4em 0;"><span data-i18n="contacts.phone">Telefono</span>: <a href="tel:+393453223445" style="color:#b71c1c; font-weight:600; text-decoration:underline dotted;">+39 345 322 3445</a></p>
+      <p style="font-size:1.07em;"><span data-i18n="contacts.address">Indirizzo</span>: Via delle Ginestre 8, 27021 Montivera (PV)</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Su Forru Buddiu</p>
+    </footer>
+    <script>
+      (function() {
+      var translations = {
+          it: {
+            'lang.label': 'Lingua',
+            'nav.home': 'Home',
+            'nav.menu': 'Menu',
+            'nav.pizze': 'Pizze',
+            'nav.primi': 'Primi e Secondi',
+            'nav.dolci': 'Dolci',
+            'nav.bevande': 'Bevande',
+          'sections.primi': 'Primi e Secondi',
+            'contacts.title': 'Contatti',
+            'contacts.phone': 'Telefono',
+          'contacts.address': 'Indirizzo',
+          'item.lasagna.title': 'Lasagna',
+          'item.lasagna.desc': "Pasta all'uovo, ragù, besciamella, parmigiano",
+          'item.risotto_funghi.title': 'Risotto ai funghi',
+          'item.risotto_funghi.desc': 'Riso, funghi porcini, brodo vegetale, prezzemolo',
+          'item.carbonara.title': 'Spaghetti alla Carbonara',
+          'item.carbonara.desc': 'Spaghetti, uova, guanciale, pecorino, pepe nero',
+          'item.cotoletta_milanese.title': 'Cotoletta alla Milanese',
+          'item.cotoletta_milanese.desc': 'Vitello, uova, pangrattato, olio di arachide',
+          'item.scaloppine_limone.title': 'Scaloppine al limone',
+          'item.scaloppine_limone.desc': 'Fettine di vitello, limone, farina, vino bianco',
+          'item.bistecca_ferri.title': 'Bistecca ai ferri',
+          'item.bistecca_ferri.desc': 'Manzo, rosmarino, olio extravergine, sale',
+          'item.orecchiette_cime_rapa.title': 'Orecchiette alle Cime di Rapa',
+          'item.orecchiette_cime_rapa.desc': 'Orecchiette, cime di rapa, acciughe, olio extravergine, aglio, peperoncino',
+          'item.gnocchi_pesto.title': 'Gnocchi al Pesto',
+          'item.gnocchi_pesto.desc': 'Gnocchi di patate, pesto di basilico, grana, pinoli',
+          'item.polpette_sugo.title': 'Polpette al Sugo',
+          'item.polpette_sugo.desc': 'Carne macinata, pane, uova, parmigiano, salsa di pomodoro',
+          'item.branzino_forno.title': 'Branzino al Forno',
+          'item.branzino_forno.desc': 'Filetto di branzino, erbe aromatiche, vino bianco, olio extravergine, patate'
+          },
+          en: {
+            'lang.label': 'Language',
+            'nav.home': 'Home',
+            'nav.menu': 'Menu',
+            'nav.pizze': 'Pizzas',
+            'nav.primi': 'First & Main Courses',
+            'nav.dolci': 'Desserts',
+            'nav.bevande': 'Drinks',
+          'sections.primi': 'First & Main Courses',
+            'contacts.title': 'Contact us',
+            'contacts.phone': 'Phone',
+          'contacts.address': 'Address',
+          'item.lasagna.title': 'Lasagna',
+          'item.lasagna.desc': 'Egg pasta, ragù, béchamel, parmesan',
+          'item.risotto_funghi.title': 'Mushroom risotto',
+          'item.risotto_funghi.desc': 'Rice, porcini mushrooms, vegetable stock, parsley',
+          'item.carbonara.title': 'Spaghetti Carbonara',
+          'item.carbonara.desc': 'Spaghetti, eggs, guanciale, pecorino, black pepper',
+          'item.cotoletta_milanese.title': 'Milanese cutlet',
+          'item.cotoletta_milanese.desc': 'Veal, eggs, breadcrumbs, peanut oil',
+          'item.scaloppine_limone.title': 'Lemon scaloppine',
+          'item.scaloppine_limone.desc': 'Veal slices, lemon, flour, white wine',
+          'item.bistecca_ferri.title': 'Grilled steak',
+          'item.bistecca_ferri.desc': 'Beef, rosemary, extra virgin olive oil, salt',
+          'item.orecchiette_cime_rapa.title': 'Orecchiette with broccoli rabe',
+          'item.orecchiette_cime_rapa.desc': 'Orecchiette, broccoli rabe, anchovies, extra virgin olive oil, garlic, chili',
+          'item.gnocchi_pesto.title': 'Gnocchi with pesto',
+          'item.gnocchi_pesto.desc': 'Potato gnocchi, basil pesto, grana, pine nuts',
+          'item.polpette_sugo.title': 'Meatballs in tomato sauce',
+          'item.polpette_sugo.desc': 'Minced meat, bread, eggs, parmesan, tomato sauce',
+          'item.branzino_forno.title': 'Baked sea bass',
+          'item.branzino_forno.desc': 'Sea bass fillet, herbs, white wine, extra virgin olive oil, potatoes'
+          },
+          es: {
+            'lang.label': 'Idioma',
+            'nav.home': 'Inicio',
+            'nav.menu': 'Menú',
+            'nav.pizze': 'Pizzas',
+            'nav.primi': 'Primeros y Segundos',
+            'nav.dolci': 'Postres',
+            'nav.bevande': 'Bebidas',
+          'sections.primi': 'Primeros y Segundos',
+            'contacts.title': 'Contacto',
+            'contacts.phone': 'Teléfono',
+          'contacts.address': 'Dirección',
+          'item.lasagna.title': 'Lasaña',
+          'item.lasagna.desc': 'Pasta al huevo, ragú, bechamel, parmesano',
+          'item.risotto_funghi.title': 'Risotto de setas',
+          'item.risotto_funghi.desc': 'Arroz, setas porcini, caldo vegetal, perejil',
+          'item.carbonara.title': 'Espaguetis a la carbonara',
+          'item.carbonara.desc': 'Espaguetis, huevos, guanciale, pecorino, pimienta negra',
+          'item.cotoletta_milanese.title': 'Milanesa',
+          'item.cotoletta_milanese.desc': 'Ternera, huevos, pan rallado, aceite de cacahuete',
+          'item.scaloppine_limone.title': 'Escalopines al limón',
+          'item.scaloppine_limone.desc': 'Filetes de ternera, limón, harina, vino blanco',
+          'item.bistecca_ferri.title': 'Bistec a la parrilla',
+          'item.bistecca_ferri.desc': 'Ternera, romero, aceite de oliva virgen extra, sal',
+          'item.orecchiette_cime_rapa.title': 'Orecchiette con grelos',
+          'item.orecchiette_cime_rapa.desc': 'Orecchiette, grelos, anchoas, aceite de oliva virgen extra, ajo, chile',
+          'item.gnocchi_pesto.title': 'Ñoquis al pesto',
+          'item.gnocchi_pesto.desc': 'Ñoquis de patata, pesto de albahaca, grana, piñones',
+          'item.polpette_sugo.title': 'Albóndigas en salsa de tomate',
+          'item.polpette_sugo.desc': 'Carne picada, pan, huevos, parmesano, salsa de tomate',
+          'item.branzino_forno.title': 'Lubina al horno',
+          'item.branzino_forno.desc': 'Filete de lubina, hierbas, vino blanco, aceite de oliva virgen extra, patatas'
+          }
+        };
+
+        function applyTranslations(lang) {
+          var dict = translations[lang] || translations.it;
+          var nodes = document.querySelectorAll('[data-i18n]');
+          nodes.forEach(function(node) {
+            var key = node.getAttribute('data-i18n');
+            if (dict[key]) node.textContent = dict[key];
+          });
+          var labelNodes = document.querySelectorAll('[data-i18n-label]');
+          labelNodes.forEach(function(node) {
+            var key = node.getAttribute('data-i18n-label');
+            if (dict[key]) node.textContent = dict[key];
+          });
+        }
+
+        var select = document.getElementById('lang-select');
+        var saved = localStorage.getItem('sfblang') || (navigator.language || 'it').slice(0, 2);
+        if (!translations[saved]) saved = 'it';
+        select.value = saved;
+        applyTranslations(saved);
+        select.addEventListener('change', function() {
+          var lang = select.value;
+          localStorage.setItem('sfblang', lang);
+          applyTranslations(lang);
+        });
+      })();
+    </script>
+</body>
+</html>

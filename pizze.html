@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizze | Su Forru Buddiu</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <header>
+        <h1>Su Forru Buddiu</h1>
+        <div style="text-align:right; margin:6px 0 10px 0;">
+          <div style="display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border-radius:999px; background:#fff8e6; border:1px solid #efd8c3; box-shadow:0 1px 6px #d1b7a130;">
+            <span style="font-weight:700; color:#5a4123;">🌐</span>
+            <label for="lang-select" style="margin-right:2px; font-weight:600; color:#5a4123;" data-i18n-label="lang.label">Lingua</label>
+            <select id="lang-select" style="padding:7px 12px; border-radius:10px; border:1px solid #e1c8b3; color:#5a4123; background:#ffffff; box-shadow: inset 0 1px 2px #00000010; cursor:pointer;">
+              <option value="it">🇮🇹 Italiano</option>
+              <option value="en">🇬🇧 English</option>
+              <option value="es">🇪🇸 Español</option>
+            </select>
+          </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="menu.html" data-i18n="nav.menu">Menu</a></li>
+                <li><a href="pizze.html" data-i18n="nav.pizze">Pizze</a></li>
+                <li><a href="primi_e_secondi.html" data-i18n="nav.primi">Primi e Secondi</a></li>
+                <li><a href="dolci.html" data-i18n="nav.dolci">Dolci</a></li>
+                <li><a href="bevande.html" data-i18n="nav.bevande">Bevande</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="pizze">
+            <h2 data-i18n="sections.pizze">Pizze</h2>
+            <ul class="menu-list">
+                <li><img src="img/diavola.png" alt="Pizza Diavola" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item"><div class="title"><strong data-i18n="item.diavola.title">Diavola</strong> - €7,00</div>
+                        <div class="desc" data-i18n="item.diavola.desc">Pomodoro, mozzarella, salame piccante</div>
+                    </div>
+                </li>
+                <li><img src="img/bufalina.png" alt="Pizza Bufalina" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item"><div class="title"><strong data-i18n="item.bufalina.title">Bufalina</strong> - €8,50</div>
+                        <div class="desc" data-i18n="item.bufalina.desc">Pomodoro, mozzarella di bufala, basilico</div>
+                    </div>
+                </li>
+                <li><img src="img/margherita.png" alt="Pizza Margherita" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item"><div class="title"><strong data-i18n="item.margherita.title">Margherita</strong> - €6,00</div>
+                        <div class="desc" data-i18n="item.margherita.desc">Pomodoro, mozzarella, basilico</div>
+                    </div>
+                </li>
+                <li><img src="img/quattro_stagioni.png" alt="Pizza Quattro Stagioni" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item"><div class="title"><strong data-i18n="item.quattro_stagioni.title">Quattro Stagioni</strong> - €8,00</div>
+                        <div class="desc" data-i18n="item.quattro_stagioni.desc">Pomodoro, mozzarella, funghi, prosciutto, carciofi, olive</div>
+                    </div>
+                </li>
+                <li><img src="img/prosciutto_funghi.png" alt="Pizza Prosciutto e Funghi" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;">
+                    <div class="menu-item"><div class="title"><strong data-i18n="item.prosciutto_funghi.title">Prosciutto e Funghi</strong> - €7,50</div>
+                        <div class="desc" data-i18n="item.prosciutto_funghi.desc">Pomodoro, mozzarella, prosciutto cotto, funghi</div>
+                    </div>
+                </li>
+                <li><img src="img/boscaiola.png" alt="Pizza Boscaiola" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.boscaiola.title">Boscaiola</strong> - €8,50</div><div class="desc" data-i18n="item.boscaiola.desc">Pomodoro, mozzarella, salsiccia, funghi, panna</div></div></li>
+                <li><img src="img/capricciosa.png" alt="Pizza Capricciosa" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.capricciosa.title">Capricciosa</strong> - €9,00</div><div class="desc" data-i18n="item.capricciosa.desc">Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive, uovo</div></div></li>
+                <li><img src="img/crudo_rucola.png" alt="Pizza Crudo e Rucola" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.crudo_rucola.title">Crudo e Rucola</strong> - €9,00</div><div class="desc" data-i18n="item.crudo_rucola.desc">Pomodoro, mozzarella, prosciutto crudo, rucola, scaglie di grana</div></div></li>
+                <li><img src="img/parmigiana.png" alt="Pizza Parmigiana" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.parmigiana.title">Parmigiana</strong> - €8,00</div><div class="desc" data-i18n="item.parmigiana.desc">Pomodoro, mozzarella, melanzane, grana, basilico</div></div></li>
+                <li><img src="img/quattro_formaggi.png" alt="Pizza Quattro Formaggi" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.quattro_formaggi.title">Quattro Formaggi</strong> - €8,00</div><div class="desc" data-i18n="item.quattro_formaggi.desc">Pomodoro, mozzarella, gorgonzola, fontina, parmigiano</div></div></li>
+                <li><img src="img/tonno_cipolla.png" alt="Pizza Tonno e Cipolla" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.tonno_cipolla.title">Tonno e Cipolla</strong> - €7,50</div><div class="desc" data-i18n="item.tonno_cipolla.desc">Pomodoro, mozzarella, tonno, cipolla rossa</div></div></li>
+                <li><img src="img/napoli.png" alt="Pizza Napoli" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.napoli.title">Napoli</strong> - €7,00</div><div class="desc" data-i18n="item.napoli.desc">Pomodoro, mozzarella, acciughe, capperi, origano</div></div></li>
+                <li><img src="img/salsiccia_friarielli.png" alt="Pizza Salsiccia e Friarielli" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.salsiccia_friarielli.title">Salsiccia e Friarielli</strong> - €8,50</div><div class="desc" data-i18n="item.salsiccia_friarielli.desc">Pomodoro, mozzarella, salsiccia, friarielli</div></div></li>
+                <li><img src="img/speck_brie.png" alt="Pizza Speck e Brie" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.speck_brie.title">Speck e Brie</strong> - €9,00</div><div class="desc" data-i18n="item.speck_brie.desc">Pomodoro, mozzarella, speck, brie</div></div></li>
+                <li><img src="img/mare_monti.png" alt="Pizza Mare e Monti" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.mare_monti.title">Mare e Monti</strong> - €9,50</div><div class="desc" data-i18n="item.mare_monti.desc">Pomodoro, mozzarella, gamberetti, funghi misti</div></div></li>
+                <li><img src="img/ortolana.png" alt="Pizza Ortolana" style="width:120px; float:left; margin:6px 12px 6px 0; border-radius:8px; box-shadow:0 2px 10px #00000014;"><div class="menu-item"><div class="title"><strong data-i18n="item.ortolana.title">Ortolana</strong> - €8,00</div><div class="desc" data-i18n="item.ortolana.desc">Pomodoro, mozzarella, zucchine, melanzane, peperoni, cipolla</div></div></li>
+            </ul>
+        </section>
+    </main>
+    <section id="contatti" style="margin-top:2.6em; margin-bottom:1.3em; text-align:center;">
+      <h2 style="font-size:1.25em; color:#b71c1c; letter-spacing:1px;" data-i18n="contacts.title">Contatti</h2>
+      <p style="font-size:1.07em; margin:0.4em 0;"><span data-i18n="contacts.phone">Telefono</span>: <a href="tel:+393453223445" style="color:#b71c1c; font-weight:600; text-decoration:underline dotted;">+39 345 322 3445</a></p>
+      <p style="font-size:1.07em;"><span data-i18n="contacts.address">Indirizzo</span>: Via delle Ginestre 8, 27021 Montivera (PV)</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Su Forru Buddiu</p>
+    </footer>
+    <script>
+      (function() {
+        var translations = {
+          it: {
+            'lang.label': 'Lingua',
+            'nav.home': 'Home',
+            'nav.menu': 'Menu',
+            'nav.pizze': 'Pizze',
+            'nav.primi': 'Primi e Secondi',
+            'nav.dolci': 'Dolci',
+            'nav.bevande': 'Bevande',
+            'sections.pizze': 'Pizze',
+            'contacts.title': 'Contatti',
+            'contacts.phone': 'Telefono',
+            'contacts.address': 'Indirizzo',
+            'item.diavola.title': 'Diavola',
+            'item.diavola.desc': 'Pomodoro, mozzarella, salame piccante',
+            'item.bufalina.desc': 'Pomodoro, mozzarella di bufala, basilico',
+            'item.bufalina.title': 'Bufalina',
+            'item.margherita.desc': 'Pomodoro, mozzarella, basilico',
+            'item.margherita.title': 'Margherita',
+            'item.quattro_stagioni.desc': 'Pomodoro, mozzarella, funghi, prosciutto, carciofi, olive',
+            'item.quattro_stagioni.title': 'Quattro Stagioni',
+            'item.prosciutto_funghi.desc': 'Pomodoro, mozzarella, prosciutto cotto, funghi',
+            'item.prosciutto_funghi.title': 'Prosciutto e Funghi',
+            'item.boscaiola.desc': 'Pomodoro, mozzarella, salsiccia, funghi, panna',
+            'item.boscaiola.title': 'Boscaiola',
+            'item.capricciosa.desc': 'Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive, uovo',
+            'item.capricciosa.title': 'Capricciosa',
+            'item.crudo_rucola.desc': 'Pomodoro, mozzarella, prosciutto crudo, rucola, scaglie di grana',
+            'item.crudo_rucola.title': 'Crudo e Rucola',
+            'item.parmigiana.desc': 'Pomodoro, mozzarella, melanzane, grana, basilico',
+            'item.parmigiana.title': 'Parmigiana',
+            'item.quattro_formaggi.desc': 'Pomodoro, mozzarella, gorgonzola, fontina, parmigiano',
+            'item.quattro_formaggi.title': 'Quattro Formaggi',
+            'item.tonno_cipolla.desc': 'Pomodoro, mozzarella, tonno, cipolla rossa',
+            'item.tonno_cipolla.title': 'Tonno e Cipolla',
+            'item.napoli.desc': 'Pomodoro, mozzarella, acciughe, capperi, origano',
+            'item.napoli.title': 'Napoli',
+            'item.salsiccia_friarielli.desc': 'Pomodoro, mozzarella, salsiccia, friarielli',
+            'item.salsiccia_friarielli.title': 'Salsiccia e Friarielli',
+            'item.speck_brie.desc': 'Pomodoro, mozzarella, speck, brie',
+            'item.speck_brie.title': 'Speck e Brie',
+            'item.mare_monti.desc': 'Pomodoro, mozzarella, gamberetti, funghi misti',
+            'item.mare_monti.title': 'Mare e Monti',
+            'item.ortolana.desc': 'Pomodoro, mozzarella, zucchine, melanzane, peperoni, cipolla'
+            ,
+            'item.ortolana.title': 'Ortolana'
+          },
+          en: {
+            'lang.label': 'Language',
+            'nav.home': 'Home',
+            'nav.menu': 'Menu',
+            'nav.pizze': 'Pizzas',
+            'nav.primi': 'First & Main Courses',
+            'nav.dolci': 'Desserts',
+            'nav.bevande': 'Drinks',
+            'sections.pizze': 'Pizzas',
+            'contacts.title': 'Contact us',
+            'contacts.phone': 'Phone',
+            'contacts.address': 'Address',
+            'item.diavola.title': 'Diavola',
+            'item.diavola.desc': 'Tomato, mozzarella, spicy salami',
+            'item.bufalina.desc': 'Tomato, buffalo mozzarella, basil',
+            'item.bufalina.title': 'Bufalina',
+            'item.margherita.desc': 'Tomato, mozzarella, basil',
+            'item.margherita.title': 'Margherita',
+            'item.quattro_stagioni.desc': 'Tomato, mozzarella, mushrooms, ham, artichokes, olives',
+            'item.quattro_stagioni.title': 'Four Seasons',
+            'item.prosciutto_funghi.desc': 'Tomato, mozzarella, cooked ham, mushrooms',
+            'item.prosciutto_funghi.title': 'Ham & Mushrooms',
+            'item.boscaiola.desc': 'Tomato, mozzarella, sausage, mushrooms, cream',
+            'item.boscaiola.title': 'Woodcutter’s',
+            'item.capricciosa.desc': 'Tomato, mozzarella, cooked ham, mushrooms, artichokes, olives, egg',
+            'item.capricciosa.title': 'Capricciosa',
+            'item.crudo_rucola.desc': 'Tomato, mozzarella, cured ham, rocket, parmesan shavings',
+            'item.crudo_rucola.title': 'Cured Ham & Rocket',
+            'item.parmigiana.desc': 'Tomato, mozzarella, eggplant, grana, basil',
+            'item.parmigiana.title': 'Parmigiana',
+            'item.quattro_formaggi.desc': 'Tomato, mozzarella, gorgonzola, fontina, parmesan',
+            'item.quattro_formaggi.title': 'Four Cheeses',
+            'item.tonno_cipolla.desc': 'Tomato, mozzarella, tuna, red onion',
+            'item.tonno_cipolla.title': 'Tuna & Onion',
+            'item.napoli.desc': 'Tomato, mozzarella, anchovies, capers, oregano',
+            'item.napoli.title': 'Napoli',
+            'item.salsiccia_friarielli.desc': 'Tomato, mozzarella, sausage, broccoli rabe',
+            'item.salsiccia_friarielli.title': 'Sausage & Broccoli Rabe',
+            'item.speck_brie.desc': 'Tomato, mozzarella, speck, brie',
+            'item.speck_brie.title': 'Speck & Brie',
+            'item.mare_monti.desc': 'Tomato, mozzarella, shrimps, mixed mushrooms',
+            'item.mare_monti.title': 'Surf & Turf',
+            'item.ortolana.desc': 'Tomato, mozzarella, zucchini, eggplant, peppers, onion'
+            ,
+            'item.ortolana.title': 'Garden Veg'
+          },
+          es: {
+            'lang.label': 'Idioma',
+            'nav.home': 'Inicio',
+            'nav.menu': 'Menú',
+            'nav.pizze': 'Pizzas',
+            'nav.primi': 'Primeros y Segundos',
+            'nav.dolci': 'Postres',
+            'nav.bevande': 'Bebidas',
+            'sections.pizze': 'Pizzas',
+            'contacts.title': 'Contacto',
+            'contacts.phone': 'Teléfono',
+            'contacts.address': 'Dirección',
+            'item.diavola.title': 'Diavola',
+            'item.diavola.desc': 'Tomate, mozzarella, salami picante',
+            'item.bufalina.desc': 'Tomate, mozzarella de búfala, albahaca',
+            'item.bufalina.title': 'Bufalina',
+            'item.margherita.desc': 'Tomate, mozzarella, albahaca',
+            'item.margherita.title': 'Margherita',
+            'item.quattro_stagioni.desc': 'Tomate, mozzarella, setas, jamón, alcachofas, aceitunas',
+            'item.quattro_stagioni.title': 'Cuatro Estaciones',
+            'item.prosciutto_funghi.desc': 'Tomate, mozzarella, jamón cocido, setas',
+            'item.prosciutto_funghi.title': 'Jamón y Setas',
+            'item.boscaiola.desc': 'Tomate, mozzarella, salchicha, setas, nata',
+            'item.boscaiola.title': 'Boscaiola',
+            'item.capricciosa.desc': 'Tomate, mozzarella, jamón cocido, setas, alcachofas, aceitunas, huevo',
+            'item.capricciosa.title': 'Caprichosa',
+            'item.crudo_rucola.desc': 'Tomate, mozzarella, jamón curado, rúcula, lascas de parmesano',
+            'item.crudo_rucola.title': 'Jamón Curado y Rúcula',
+            'item.parmigiana.desc': 'Tomate, mozzarella, berenjena, grana, albahaca',
+            'item.parmigiana.title': 'Parmigiana',
+            'item.quattro_formaggi.desc': 'Tomate, mozzarella, gorgonzola, fontina, parmesano',
+            'item.quattro_formaggi.title': 'Cuatro Quesos',
+            'item.tonno_cipolla.desc': 'Tomate, mozzarella, atún, cebolla roja',
+            'item.tonno_cipolla.title': 'Atún y Cebolla',
+            'item.napoli.desc': 'Tomate, mozzarella, anchoas, alcaparras, orégano',
+            'item.napoli.title': 'Nápoles',
+            'item.salsiccia_friarielli.desc': 'Tomate, mozzarella, salchicha, grelos',
+            'item.salsiccia_friarielli.title': 'Salchicha y Grelos',
+            'item.speck_brie.desc': 'Tomate, mozzarella, speck, brie',
+            'item.speck_brie.title': 'Speck y Brie',
+            'item.mare_monti.desc': 'Tomate, mozzarella, gambas, setas mixtas',
+            'item.mare_monti.title': 'Mar y Montaña',
+            'item.ortolana.desc': 'Tomate, mozzarella, calabacín, berenjena, pimientos, cebolla',
+            'item.ortolana.title': 'Hortelana'
+          }
+        };
+
+        function applyTranslations(lang) {
+          var dict = translations[lang] || translations.it;
+          var nodes = document.querySelectorAll('[data-i18n]');
+          nodes.forEach(function(node) {
+            var key = node.getAttribute('data-i18n');
+            if (dict[key]) node.textContent = dict[key];
+          });
+          var labelNodes = document.querySelectorAll('[data-i18n-label]');
+          labelNodes.forEach(function(node) {
+            var key = node.getAttribute('data-i18n-label');
+            if (dict[key]) node.textContent = dict[key];
+          });
+        }
+
+        var select = document.getElementById('lang-select');
+        var saved = localStorage.getItem('sfblang') || (navigator.language || 'it').slice(0, 2);
+        if (!translations[saved]) saved = 'it';
+        select.value = saved;
+        applyTranslations(saved);
+        select.addEventListener('change', function() {
+          var lang = select.value;
+          localStorage.setItem('sfblang', lang);
+          applyTranslations(lang);
+        });
+      })();
+    </script>
+</body>
+</html>
